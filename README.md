@@ -6,11 +6,19 @@ A new Flutter project.
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+User management 
+	1) user registeration (with Fullname, username, passcode) - [POST API]
+	2) user authentication (with username and password) - [POST API]
+	3) user user profile detail by user id - [GET API]
+	
+Contacts CRUD
+	1) Create new contact (with userId, contactName, mobileNumber) - [POST API]
+	2) Update existing contact (with contactId, userId, contactName, mobileNumber) - [POST API]
+	3) Remove existing contact (with contactId, userId) - [POST API]
+	4) Get contacts list by userId - [GET API]  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Created the backend API as mention above,
+https://contactdemo.jagandigitech.in/swagger/index.html
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Created the flutter app in integration with above api's (Release build for testing)
+https://drive.google.com/file/d/1gawY2SoGiiKsQh2EElhLgSj-GfpWLWzn/view?usp=drive_link
