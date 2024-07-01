@@ -1,4 +1,4 @@
-# first_flutter_application_1
+# Intern Contacts CRUD 
 
 A new Flutter project.
 
@@ -6,13 +6,13 @@ A new Flutter project.
 
 This project is a starting point for a Flutter application.
 
-User management 
+### User management 
 
 	1) user registeration (with Fullname, username, passcode) - [POST API]
 	2) user authentication (with username and password) - [POST API]
 	3) user user profile detail by user id - [GET API]
 	
-Contacts CRUD
+### Contacts CRUD
 
 	1) Create new contact (with userId, contactName, mobileNumber) - [POST API]
 	2) Update existing contact (with contactId, userId, contactName, mobileNumber) - [POST API]
@@ -26,3 +26,20 @@ https://contactdemo.jagandigitech.in/swagger/index.html
 Created the flutter app in integration with above api's (Release build for testing)
 https://drive.google.com/file/d/1gawY2SoGiiKsQh2EElhLgSj-GfpWLWzn/view?usp=drive_link
 
+Flutter application build using below packages,
+
+### State Management 
+	- flutter_riverpod
+	- riverpod_annotation
+	- json_annotation
+
+### Navigation and App Routing
+	- go_router
+	
+### Network calls
+	- http
+
+### App Local storage 
+	- shared_preferences
+
+ 
