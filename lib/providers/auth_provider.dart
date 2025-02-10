@@ -24,6 +24,7 @@ class AuthNotifier extends AsyncNotifier<UserData?> {
 
   @override
   FutureOr<UserData?> build() async {
+    // ignore: deprecated_member_use
     ref.listenSelf((_, next) {
       final val = next.valueOrNull;
       if (val == null) {

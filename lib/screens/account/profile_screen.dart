@@ -122,6 +122,7 @@ class MyProfileScreen extends ConsumerWidget {
                         ref.read(authProvider.notifier).signOut();
 
                         Future.delayed(const Duration(milliseconds: 300), () {
+                          // ignore: use_build_context_synchronously
                           context.go(LoginScreen.routeLocation);
                         });
                       },
